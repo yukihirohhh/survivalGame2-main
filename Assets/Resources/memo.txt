@@ -1,0 +1,8 @@
+・シーンに配置するアイテム
+	Interactable Object,Boxolliderをつける。
+	Item Name{○○}
+
+・インベントリ内に配置されるPrefab
+	Image で画像をはる
+	Drag Dropスクリプトをアタッチ
+	Prefab自体の名前をInteractable ObjectのItem Name{○○}　と一緒にする。
