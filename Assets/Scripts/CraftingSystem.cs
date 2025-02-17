@@ -22,6 +22,7 @@ public class CraftingSystem : MonoBehaviour
 
     public bool isOpen;
 
+
     //All Blueprint
     public Blueprint AxeBLP = new Blueprint("Axe", 2, "Stone",3,"Stick",3);
 
