@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class InventorySystem : MonoBehaviour
@@ -108,6 +109,11 @@ public class InventorySystem : MonoBehaviour
 
         // アイテムリストに追加
         itemList.Add(itemName);
+
+
+
+        ReCalculateList();
+        CraftingSystem.Instance.RefreshNeededItems();
     }
 
 

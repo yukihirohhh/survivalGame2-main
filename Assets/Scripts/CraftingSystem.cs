@@ -96,15 +96,15 @@ public class CraftingSystem : MonoBehaviour
 
     public IEnumerator calculate()
     {
-        yield return new WaitForSeconds(1f);
+        yield return 0;
 
         InventorySystem.Instance.ReCalculateList();
+        RefreshNeededItems() ;
     }
 
     void Update()
     {
-        RefreshNeededItems();//クラフトの要件更新
-
+     
         if (Input.GetKeyDown(KeyCode.Tab) && !isOpen)
         {
 
@@ -123,7 +123,7 @@ public class CraftingSystem : MonoBehaviour
         }
     }
 
-    private void RefreshNeededItems()
+    public void RefreshNeededItems()
     {
 
         int stone_count = 0;

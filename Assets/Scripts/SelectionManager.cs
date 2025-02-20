@@ -12,6 +12,10 @@ public class SelectionManager : MonoBehaviour
     // UIに表示するテキスト
     Text interaction_text;
 
+    public Image centerDotImage;
+    public Image handIcon;
+
+
     // Raycastが届く最大距離
     public float interactionDistance = 5f;
 
