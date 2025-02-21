@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66459c7a3b4f02c4fbd1c1a0094be6ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTrashable: 0
+  isTrashable: 1
   thisName: "\u65A7"
   thisDescription: "\u666E\u901A\u306E\u65A7"
   thisFunctionality: "\u6728\u3092\u5207\u308B\u305F\u3081\u306B\u4F7F\u3044\u307E\u3059"
